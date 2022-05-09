@@ -1,0 +1,22 @@
+
+
+.block{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: auto 400px;
+    /* flex-direction: column-reverse; */
+}
+.block_2 p{
+    width: 50px;
+    height: 25px;
+    margin-left: 150px;
+    border: 2px solid black;
+}
+.block_2 img {
+    border: 2px solid black;
+}
+.block_3 p{
+    display: flex;
+    justify-content: flex-end;
+    /* align-items: flex-end; */
+}
